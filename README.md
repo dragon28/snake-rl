@@ -49,7 +49,7 @@ Three independent training runs (seeds 0, 1, 2), 300,000 steps each, about 6 min
 What the numbers say:
 - The DQN learns quickly. It goes from about 0 to 12-16 food within 5,000 steps.
 - All three runs end at a mean of 19.4-19.7 food. The greedy heuristic averages 18.2.
-- The DQN wins, but only modestly: the confidence intervals sit right next to each other, and seed 2 overlaps slightly. This is a small, honest gain, not a dramatic one.
+- The DQN wins, but only modestly. All three runs' 95% confidence intervals overlap the heuristic's, so this is a consistent small edge across seeds, not a statistically proven win. A paired test on the same evaluation seeds would settle it.
 - Early checkpoints sometimes loop until they are cut off (the "starved" endings). Trained agents stop doing that.
 
 ## Run it
