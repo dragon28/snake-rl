@@ -1,0 +1,244 @@
+{
+ "random": {
+  "episodes": 200,
+  "mean": 0.17,
+  "ci95": [
+   0.12,
+   0.23
+  ],
+  "median": 0.0,
+  "max": 2,
+  "mean_steps": 23.0,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "greedy heuristic": {
+  "episodes": 200,
+  "mean": 18.21,
+  "ci95": [
+   17.45,
+   18.98
+  ],
+  "median": 18.0,
+  "max": 36,
+  "mean_steps": 147.5,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed0 step 0": {
+  "episodes": 200,
+  "mean": 0.04,
+  "ci95": [
+   0.01,
+   0.07
+  ],
+  "median": 0.0,
+  "max": 1,
+  "mean_steps": 5.0,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed0 step 5,000": {
+  "episodes": 200,
+  "mean": 16.45,
+  "ci95": [
+   15.62,
+   17.23
+  ],
+  "median": 17.0,
+  "max": 30,
+  "mean_steps": 403.6,
+  "ends": {
+   "collision": 165,
+   "starved": 35
+  }
+ },
+ "DQN seed0 step 25,000": {
+  "episodes": 200,
+  "mean": 17.55,
+  "ci95": [
+   16.72,
+   18.39
+  ],
+  "median": 17.0,
+  "max": 37,
+  "mean_steps": 140.7,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed0 step 100,000": {
+  "episodes": 200,
+  "mean": 19.4,
+  "ci95": [
+   18.46,
+   20.41
+  ],
+  "median": 18.0,
+  "max": 40,
+  "mean_steps": 153.0,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed0 step 300,000": {
+  "episodes": 200,
+  "mean": 19.66,
+  "ci95": [
+   18.73,
+   20.62
+  ],
+  "median": 19.5,
+  "max": 37,
+  "mean_steps": 157.3,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed1 step 0": {
+  "episodes": 200,
+  "mean": 0.01,
+  "ci95": [
+   0.0,
+   0.03
+  ],
+  "median": 0.0,
+  "max": 1,
+  "mean_steps": 301.0,
+  "ends": {
+   "starved": 200
+  }
+ },
+ "DQN seed1 step 5,000": {
+  "episodes": 200,
+  "mean": 11.53,
+  "ci95": [
+   10.56,
+   12.52
+  ],
+  "median": 11.0,
+  "max": 32,
+  "mean_steps": 459.3,
+  "ends": {
+   "starved": 85,
+   "collision": 115
+  }
+ },
+ "DQN seed1 step 25,000": {
+  "episodes": 200,
+  "mean": 17.53,
+  "ci95": [
+   16.69,
+   18.39
+  ],
+  "median": 17.0,
+  "max": 41,
+  "mean_steps": 140.3,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed1 step 100,000": {
+  "episodes": 200,
+  "mean": 19.61,
+  "ci95": [
+   18.69,
+   20.57
+  ],
+  "median": 19.0,
+  "max": 38,
+  "mean_steps": 156.3,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed1 step 300,000": {
+  "episodes": 200,
+  "mean": 19.66,
+  "ci95": [
+   18.77,
+   20.52
+  ],
+  "median": 19.0,
+  "max": 38,
+  "mean_steps": 158.8,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed2 step 0": {
+  "episodes": 200,
+  "mean": 0.04,
+  "ci95": [
+   0.01,
+   0.07
+  ],
+  "median": 0.0,
+  "max": 1,
+  "mean_steps": 5.0,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed2 step 5,000": {
+  "episodes": 200,
+  "mean": 12.43,
+  "ci95": [
+   11.37,
+   13.41
+  ],
+  "median": 12.0,
+  "max": 32,
+  "mean_steps": 395.3,
+  "ends": {
+   "collision": 137,
+   "starved": 63
+  }
+ },
+ "DQN seed2 step 25,000": {
+  "episodes": 200,
+  "mean": 14.99,
+  "ci95": [
+   14.12,
+   15.81
+  ],
+  "median": 15.0,
+  "max": 32,
+  "mean_steps": 142.7,
+  "ends": {
+   "collision": 195,
+   "starved": 5
+  }
+ },
+ "DQN seed2 step 100,000": {
+  "episodes": 200,
+  "mean": 20.42,
+  "ci95": [
+   19.46,
+   21.41
+  ],
+  "median": 20.0,
+  "max": 38,
+  "mean_steps": 162.4,
+  "ends": {
+   "collision": 200
+  }
+ },
+ "DQN seed2 step 300,000": {
+  "episodes": 200,
+  "mean": 19.43,
+  "ci95": [
+   18.54,
+   20.43
+  ],
+  "median": 19.0,
+  "max": 44,
+  "mean_steps": 159.5,
+  "ends": {
+   "collision": 200
+  }
+ }
+}
